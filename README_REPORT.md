@@ -38,11 +38,11 @@ The following files are not uploaded to GitHub:
 - .venv/
 - split/
 - split_sample/
-- models/*.joblib
+- generated CSV prediction files
 - reports/*.csv
 - *.zip
 
-These files are local datasets, generated models, generated reports, or environment files.
+These files are local datasets, generated prediction reports, zip files, or environment files. The trained Ridge model is included because its size is small and useful for reproducibility.
 
 ## Installation
 
